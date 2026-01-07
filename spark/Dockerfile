@@ -1,7 +1,7 @@
 # spark/Dockerfile
 
 # Base image
-FROM openjdk:11-jre-slim
+FROM eclipse-temurin:11-jdk-focal
 
 # Set environment variables
 ENV SPARK_VERSION=3.3.0
